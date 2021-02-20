@@ -1,0 +1,43 @@
+/*Секция преимущества*/
+
+.lol {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+  background-color: $main-white-color;
+}
+.advantages-title {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.itenn {
+  width: 270px;
+}
+.mod {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 102px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.icon {
+  fill: $fill-color;
+  background-size: contain;
+}
+.second {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section .advantages-containet {
+  padding-top: 94px;
+}

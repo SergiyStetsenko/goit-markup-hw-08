@@ -1,0 +1,93 @@
+/* header container */
+.background {
+  border: 1px solid #ececec;
+  margin: 0 auto;
+}
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  background-color: $main-white-color;
+}
+.logo {
+  color: $primary-text-color;
+}
+.site-naw {
+  .current {
+    color: $accent-color;
+  }
+}
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 93px;
+  color: $primary-text-color;
+  text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-naw {
+  display: flex;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link {
+  position: relative;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $primary-text-color;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iten {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.contacts-color {
+  display: flex;
+  align-items: center;
+  color: $title-text-color;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.riko {
+  fill: $title-text-color;
+  margin-right: 10px;
+}
+
+.color {
+  color: $accent-color;
+}
+.contacts {
+  display: flex;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.conta {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+/* header container */

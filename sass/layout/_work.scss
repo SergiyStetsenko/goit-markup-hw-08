@@ -1,0 +1,39 @@
+/* наша работа*/
+.work {
+  padding-bottom: 94px;
+  margin: 0 auto;
+  background-color: $main-white-color;
+}
+.important {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.foto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.abcolut {
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  position: relative;
+}
+.yoga {
+  width: 370px;
+  height: 70px;
+  color: $main-white-color;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}

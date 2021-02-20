@@ -1,0 +1,278 @@
+/* header */
+// .logo {
+//   :hover,
+//   :focus {
+//     color: $accent-color;
+//   }
+// }
+
+.icon {
+  &:hover,
+  &:focus {
+    fill: $main-white-color;
+  }
+}
+.logo {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.goood {
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+.goood {
+  &:hover svg,
+  &:focus svg {
+    fill: $main-white-color;
+  }
+}
+
+.contacts-color {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.contacts-color {
+  &:focus {
+    color: $accent-color;
+  }
+}
+.kokos {
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
+  &:hover svg,
+  &:focus svg {
+    fill: $accent-color;
+  }
+}
+/* modal */
+input {
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover + svg,
+  &:focus + svg {
+    fill: $accent-color;
+  }
+}
+
+.wid-feadback {
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.label-wid {
+  &:hover,
+  &:focus svg {
+    fill: $accent-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.rery {
+  &.wid:hover,
+  &.wid:focus svg {
+    fill: $accent-color;
+  }
+}
+.ewcw {
+  &:hover {
+    fill: $accent-color;
+  }
+}
+.check-label:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  top: -8px;
+  padding-left: 15px;
+  padding-bottom: 14px;
+  height: 15px;
+  border: 2px solid $black-color;
+  border-radius: 2px;
+  left: 0;
+}
+.check {
+  &:checked + .check-label:before {
+    background-color: $accent-color;
+    background-image: url(../images/icon.svg);
+    border-color: $accent-color;
+  }
+  &:focus + .check-label:before {
+    border-color: $accent-color;
+  }
+}
+.fon {
+  &:hover .bea:hover.bea::before {
+    opacity: 1;
+  }
+}
+.check-label:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  top: -8px;
+  padding-left: 15px;
+  padding-bottom: 14px;
+  height: 15px;
+  border: 2px solid $black-color;
+  border-radius: 2px;
+  left: 0;
+}
+.bea::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 250ms opacity linear;
+}
+.bea {
+  &:hover .bea::before {
+    transform: translateX(0);
+  }
+}
+.sulka {
+  &:hover .apasition,
+  &:focus .apasition {
+    top: 0;
+    opacity: 1;
+  }
+}
+.corect-photo {
+  &:hover.apasition {
+    opacity: 1;
+  }
+}
+.product-thumb {
+  &:hover {
+    top: 0;
+  }
+}
+.sulka {
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+.contacts .iten:not(:last-child) {
+  margin-right: 50px;
+}
+.site-naw .iten:not(:last-child) {
+  padding-right: 50px;
+}
+.containet:not(:last-child) {
+  padding-bottom: 94px;
+}
+.fon:nth-child(2n + 1) {
+  margin-right: 0px;
+}
+.check-label:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  top: -8px;
+  padding-left: 15px;
+  padding-bottom: 14px;
+  height: 15px;
+  border: 2px solid $black-color;
+  border-radius: 2px;
+  left: 0;
+}
+.link {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+  &.current {
+    color: $accent-color;
+  }
+}
+
+.contacts-color {
+  &:hover svg,
+  &:focus svg {
+    fill: $accent-color;
+  }
+}
+.white {
+  &.logo:hover,
+  &.logo:focus {
+    color: $accent-color;
+  }
+}
+.riko {
+  &.contacts-color:hover svg,
+  &.contacts-color:focus svg {
+    color: $accent-color;
+  }
+}
+.contacts-color {
+  &.address:hover,
+  &.address:focus {
+    color: $accent-color;
+  }
+}
+// .contacts {
+//   &.iten:not(:last-child) {
+//     margin-right: 50px;
+//   }
+// }
+.iten {
+  &:hover svg {
+    fill: $accent-color;
+  }
+}
+
+.masha {
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    background-color: $accent-color;
+  }
+}
+.masha {
+  &:hover svg,
+  &:focus svg {
+    fill: $main-white-color;
+  }
+  &:focus {
+    border: 1px solid $accent-color;
+  }
+}
+
+.icon {
+  &:hover,
+  &:focus {
+    fill: $main-white-color;
+  }
+}
+.mani {
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $main-white-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: $accent-color;
+  }
+}

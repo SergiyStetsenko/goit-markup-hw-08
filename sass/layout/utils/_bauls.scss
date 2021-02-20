@@ -1,0 +1,33 @@
+.body {
+  color: $primary-text-color;
+  background-color: $main-white-color;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  color: $title-text-color;
+}
+h1 {
+  color: $main-white-color;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+}
