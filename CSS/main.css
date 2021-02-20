@@ -295,7 +295,29 @@ html {
   max-width: 1600px;
   height: 400px;
   background-size: cover;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/ImgHero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mob/header_img.jpg);
+}
+
+@media screen and (width: 480px) {
+  .team {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .team {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet/header.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (width: 1600px) {
+  .team {
+    width: 1200px;
+    min-height: 600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/ImgHero.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 /* .containet
@@ -314,6 +336,7 @@ html {
 }
 
 .hero-title {
+  width: 100%;
   margin: 0px auto;
   padding-bottom: 30px;
   color: #ffffff;
@@ -323,6 +346,27 @@ html {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 480px) {
+  .hero-title {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    text-align: center;
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    width: 700px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .button {
