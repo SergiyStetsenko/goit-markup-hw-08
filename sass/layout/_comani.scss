@@ -5,24 +5,41 @@
   padding-bottom: 94px;
   padding-top: 94px;
 }
+.important {
+  margin-bottom: 50px;
+  font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.16;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+}
 .section-item-en {
-  display: flex;
+  // display: flex;
+  display: block;
   align-content: center;
   justify-content: space-between;
   list-style: none;
+  // @media screen and (min-width: 480px) {
+  //   width: 450px;
+  // }
+  // @media screen and (min-width: 768px) {
+  // }
+  // @media screen and (min-width: 1200px) {
+  // }
 }
+
 .bot {
+  width: 450px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
   background-color: $main-white-color;
   text-align: center;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.section-item-en {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
 }
 
 .item {
@@ -38,8 +55,10 @@
 }
 .qwerty {
   padding-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  // padding-left: 32px;
+  // padding-right: 32px;
+  padding-left: 122px;
+  padding-right: 122px;
 }
 .fotoma {
   display: flex;
@@ -65,4 +84,3 @@
   fill: $fill-color;
   background-size: contain;
 }
-/*команда*/

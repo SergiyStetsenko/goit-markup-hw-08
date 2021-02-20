@@ -6,12 +6,13 @@
   margin: 0 auto;
 }
 .lopo {
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
   list-style: none;
+  text-align: center;
 }
 .elena {
-  margin-right: 70px;
+  // margin-right: 70px;
 }
 .bot-logo {
   font-size: 26px;
@@ -44,6 +45,8 @@
   line-height: 1.71;
   list-style: none;
   color: $title-text-color;
+  margin-left: 124px;
+  margin-bottom: 60px;
 }
 .finish {
   padding-bottom: 9px;
@@ -64,8 +67,8 @@ address {
 }
 .sow {
   display: block;
-  padding-top: 21px;
-  margin-right: 93px;
+  // padding-top: 21px;
+  // margin-right: 93px;
 }
 .masha svg {
   fill: #ffffff;
@@ -78,8 +81,10 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 220px;
+  // width: 220px;
   list-style: none;
+  margin-right: 76px;
+  margin-left: 87px;
 }
 .masha {
   display: flex;
@@ -96,6 +101,7 @@ address {
   padding-top: 20px;
 }
 .happe {
+  margin-right: 10px;
   width: 44px;
   height: 44px;
 }
@@ -105,15 +111,15 @@ address {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  padding-top: 12px;
+  // padding-top: 12px;
   padding-bottom: 20px;
 }
 .dicpley {
-  display: flex;
+  // display: flex;
 }
 .widiid {
   color: $title-text-color;
-  width: 358px;
+  width: 450px;
   display: flex;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -123,7 +129,8 @@ address {
   padding-left: 16px;
   padding-right: 16px;
   padding-left: 28px;
-  margin-right: 12px;
+  // margin-right: 12px;
+  margin-bottom: 20px;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;

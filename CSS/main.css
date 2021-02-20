@@ -298,21 +298,14 @@ html {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mob/header_img.jpg);
 }
 
-@media screen and (width: 480px) {
-  .team {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .team {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet/header.jpg);
   }
 }
 
-@media screen and (min-width: 768px) and (width: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
   .team {
-    width: 1200px;
     min-height: 600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/ImgHero.jpg);
     padding-top: 200px;
@@ -387,19 +380,27 @@ html {
 
 /*Секция преимущества*/
 .lol {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   background-color: #ffffff;
 }
 
 .advantages-title {
-  display: flex;
-  justify-content: space-between;
   list-style: none;
 }
 
 .advantages {
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -407,18 +408,11 @@ html {
   margin-bottom: 10px;
 }
 
-.itenn {
-  width: 270px;
-}
-
 .mod {
-  width: 270px;
+  margin-bottom: 30px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 102px;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .icon {
@@ -427,6 +421,7 @@ html {
 }
 
 .second {
+  margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -487,25 +482,31 @@ html {
   padding-top: 94px;
 }
 
+.important {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+}
+
 .section-item-en {
-  display: flex;
+  display: block;
   align-content: center;
   justify-content: space-between;
   list-style: none;
 }
 
 .bot {
+  width: 450px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
   background-color: #ffffff;
   text-align: center;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.section-item-en {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
 }
 
 .item {
@@ -523,8 +524,8 @@ html {
 
 .qwerty {
   padding-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 122px;
+  padding-right: 122px;
 }
 
 .fotoma {
@@ -555,7 +556,6 @@ html {
   background-size: contain;
 }
 
-/*команда*/
 /*Постоянные клиенты*/
 .logo-compani {
   margin: 0 auto;
@@ -567,6 +567,9 @@ html {
 .rer {
   display: flex;
   border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 4px;
   justify-content: space-between;
   list-style: none;
 }
@@ -576,6 +579,7 @@ html {
   border: 1px solid #afb1b8;
   width: 170px;
   height: 90px;
+  margin-bottom: 30px;
 }
 
 .kokos {
@@ -604,13 +608,8 @@ html {
 }
 
 .lopo {
-  display: flex;
-  justify-content: space-between;
   list-style: none;
-}
-
-.elena {
-  margin-right: 70px;
+  text-align: center;
 }
 
 .bot-logo {
@@ -650,6 +649,8 @@ html {
   line-height: 1.71;
   list-style: none;
   color: #757575;
+  margin-left: 124px;
+  margin-bottom: 60px;
 }
 
 .finish {
@@ -675,8 +676,6 @@ address {
 
 .sow {
   display: block;
-  padding-top: 21px;
-  margin-right: 93px;
 }
 
 .masha svg {
@@ -691,8 +690,9 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 220px;
   list-style: none;
+  margin-right: 76px;
+  margin-left: 87px;
 }
 
 .masha {
@@ -712,6 +712,7 @@ address {
 }
 
 .happe {
+  margin-right: 10px;
   width: 44px;
   height: 44px;
 }
@@ -722,17 +723,12 @@ address {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  padding-top: 12px;
   padding-bottom: 20px;
-}
-
-.dicpley {
-  display: flex;
 }
 
 .widiid {
   color: #757575;
-  width: 358px;
+  width: 450px;
   display: flex;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -742,7 +738,7 @@ address {
   padding-left: 16px;
   padding-right: 16px;
   padding-left: 28px;
-  margin-right: 12px;
+  margin-bottom: 20px;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -802,17 +798,6 @@ address {
 .background {
   border: 1px solid #ececec;
   margin: 0 auto;
-}
-
-.container {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  background-color: #ffffff;
 }
 
 .logo {
