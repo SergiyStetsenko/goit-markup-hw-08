@@ -58,7 +58,7 @@
   }
 }
 .fon {
-  width: 370px;
+  width: 450px;
   background-color: $main-white-color;
   margin-top: 30px;
   margin-left: 30px;
@@ -72,12 +72,91 @@
   overflow: hidden;
 }
 .corect-photo {
-  width: 370px;
+  // width: 370px;
   position: relative;
   overflow: hidden;
 }
 .jpg {
-  width: 100%;
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_1.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+.jpg_2 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_2.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.jpg_3 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_3.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.jpg_4 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_4.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.jpg_5 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_5.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.jpg_6 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_6.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.jpg_7 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_7.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.jpg_8 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_8.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.jpg_9 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 354px;
+    background-image: url(../images/tablet/image_9.jpg);
+    background-repeat: no-repeat;
+  }
 }
 .apasition {
   position: absolute;
