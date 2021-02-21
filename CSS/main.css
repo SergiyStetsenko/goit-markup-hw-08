@@ -538,13 +538,13 @@ html {
 
 @media screen and (min-width: 768px) {
   .bot {
-    width: 430px;
+    width: 354px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .foto_1 {
-    width: 430px;
+    width: 354px;
     background-image: url(../images/tablet/img_1.jpg);
     background-repeat: no-repeat;
   }
@@ -552,7 +552,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .foto_2 {
-    width: 430px;
+    width: 354px;
     background-image: url(../images/tablet/img_2.jpg);
     background-repeat: no-repeat;
   }
@@ -560,7 +560,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .foto_3 {
-    width: 430px;
+    width: 354px;
     background-image: url(../images/tablet/img_3.jpg);
     background-repeat: no-repeat;
   }
@@ -568,7 +568,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .foto_4 {
-    width: 430px;
+    width: 354px;
     background-image: url(../images/tablet/img_4.jpg);
     background-repeat: no-repeat;
   }
