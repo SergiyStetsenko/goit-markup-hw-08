@@ -49,10 +49,35 @@
     width: 450px;
     background-image: url(../images/tablet/img_1.jpg);
     background-repeat: no-repeat;
-    margin-left: 30px;
   }
 }
-
+.foto_2 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 450px;
+    background-image: url(../images/tablet/img_2.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.foto_3 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 450px;
+    background-image: url(../images/tablet/img_3.jpg);
+    background-repeat: no-repeat;
+  }
+}
+.foto_4 {
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 450px;
+    background-image: url(../images/tablet/img_4.jpg);
+    background-repeat: no-repeat;
+  }
+}
 .item {
   font-weight: 500;
   font-size: 16px;
