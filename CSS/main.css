@@ -593,6 +593,13 @@ html {
   padding-right: 122px;
 }
 
+@media screen and (min-width: 768px) {
+  .qwerty {
+    padding-left: 74px;
+    padding-right: 74px;
+  }
+}
+
 .fotoma {
   display: flex;
   justify-content: space-between;
@@ -684,6 +691,20 @@ html {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .lopo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .elena {
+    margin-left: 76px;
+  }
+}
+
 .bot-logo {
   font-size: 26px;
   line-height: 1.2;
@@ -725,6 +746,12 @@ html {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .info {
+    margin-left: 38px;
+  }
+}
+
 .finish {
   padding-bottom: 9px;
 }
@@ -748,6 +775,12 @@ address {
 
 .sow {
   display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .sow {
+    padding-top: 26px;
+  }
 }
 
 .masha svg {

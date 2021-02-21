@@ -10,9 +10,17 @@
   // justify-content: space-between;
   list-style: none;
   text-align: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 .elena {
   // margin-right: 70px;
+  @media screen and (min-width: 768px) {
+    margin-left: 76px;
+  }
 }
 .bot-logo {
   font-size: 26px;
@@ -47,6 +55,9 @@
   color: $title-text-color;
   margin-left: 124px;
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-left: 38px;
+  }
 }
 .finish {
   padding-bottom: 9px;
@@ -69,6 +80,9 @@ address {
   display: block;
   // padding-top: 21px;
   // margin-right: 93px;
+  @media screen and (min-width: 768px) {
+    padding-top: 26px;
+  }
 }
 .masha svg {
   fill: #ffffff;
