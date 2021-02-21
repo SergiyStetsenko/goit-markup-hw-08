@@ -180,7 +180,9 @@ input {
 //   }
 // }
 .contacts .iten:not(:last-child) {
-  margin-right: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 50px;
+  }
 }
 .site-naw .iten:not(:last-child) {
   padding-right: 50px;
