@@ -1178,6 +1178,12 @@ textarea {
   margin-bottom: 25px;
 }
 
+@media screen and (min-width: 768px) {
+  .navigation {
+    justify-content: center;
+  }
+}
+
 .navigation .mani {
   font-weight: 500;
   font-size: 16px;
@@ -1208,7 +1214,6 @@ textarea {
 
 .cart-set {
   width: auto;
-  flex-basis: calc(100% / 3 - 30px);
   flex-wrap: wrap;
   display: block;
   width: 1200px;
@@ -1217,12 +1222,26 @@ textarea {
   list-style: none;
 }
 
+@media screen and (min-width: 768px) {
+  .cart-set {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .fon {
   width: 370px;
   background-color: #ffffff;
   margin-top: 30px;
   margin-left: 30px;
   border: 1px solid #eeeeee;
+}
+
+@media screen and (min-width: 768px) {
+  .fon {
+    width: 354px;
+  }
 }
 
 .product-thumb {
