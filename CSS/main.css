@@ -742,7 +742,7 @@ html {
   line-height: 1.71;
   list-style: none;
   color: #757575;
-  margin-left: 124px;
+  margin-left: 177px;
   margin-bottom: 60px;
 }
 
@@ -789,12 +789,13 @@ address {
 
 .foma {
   display: block;
+  margin-bottom: 60px;
 }
 
 .huhu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   margin-right: 76px;
   margin-left: 87px;

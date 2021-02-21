@@ -53,7 +53,7 @@
   line-height: 1.71;
   list-style: none;
   color: $title-text-color;
-  margin-left: 124px;
+  margin-left: 177px;
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     margin-left: 38px;
@@ -89,12 +89,13 @@ address {
 }
 .foma {
   display: block;
+  margin-bottom: 60px;
 }
 
 .huhu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   // width: 220px;
   list-style: none;
   margin-right: 76px;
