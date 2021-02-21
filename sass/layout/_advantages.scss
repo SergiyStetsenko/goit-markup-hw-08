@@ -21,9 +21,10 @@
   // display: flex;
   // justify-content: space-between;
   list-style: none;
-  @media screen and (width: 420px) {
-    $display: flex;
-    $flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 .advantages {
@@ -33,12 +34,14 @@
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  @media screen and(min-height: 768px) {
+    text-align: start;
+  }
 }
 .itenn {
-  // @media screen and (width: 420px) and(width:768px) {
-  //   width: 354px;
-  // }
-  //   // width: 270px;
+  @media screen and(min-width: 768px) {
+    width: 330px;
+  }
 }
 .mod {
   margin-bottom: 30px;

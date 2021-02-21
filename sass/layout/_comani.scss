@@ -20,9 +20,11 @@
   align-content: center;
   justify-content: space-between;
   list-style: none;
-  // @media screen and (min-width: 480px) {
-  //   width: 450px;
-  // }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
   // @media screen and (min-width: 768px) {
   // }
   // @media screen and (min-width: 1200px) {
@@ -33,13 +35,22 @@
   width: 450px;
   margin: 0 auto;
   margin-bottom: 30px;
-  margin-bottom: 30px;
+
   background-color: $main-white-color;
   text-align: center;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+  @media screen and (min-width: 768px) {
+    // width: 354px;
+    // height: 374px;
+    width: 450px;
+    background-image: url(../images/tablet/img_1.jpg);
+    background-repeat: no-repeat;
+    margin-left: 30px;
+  }
 }
 
 .item {
