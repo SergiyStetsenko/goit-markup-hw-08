@@ -507,7 +507,7 @@ html {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 28px;
-  line-height: 33px;
+  line-height: 1.17;
   text-align: center;
 }
 
@@ -538,7 +538,13 @@ html {
 
 @media screen and (min-width: 768px) {
   .bot {
-    width: 450px;
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .foto_1 {
+    width: 430px;
     background-image: url(../images/tablet/img_1.jpg);
     background-repeat: no-repeat;
   }
@@ -546,7 +552,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .foto_2 {
-    width: 450px;
+    width: 430px;
     background-image: url(../images/tablet/img_2.jpg);
     background-repeat: no-repeat;
   }
@@ -554,7 +560,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .foto_3 {
-    width: 450px;
+    width: 430px;
     background-image: url(../images/tablet/img_3.jpg);
     background-repeat: no-repeat;
   }
@@ -562,7 +568,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .foto_4 {
-    width: 450px;
+    width: 430px;
     background-image: url(../images/tablet/img_4.jpg);
     background-repeat: no-repeat;
   }
