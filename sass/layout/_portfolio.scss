@@ -6,9 +6,13 @@
 }
 .navigation {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  // justify-content: center;
+  // margin-bottom: 50px;
   list-style: none;
+
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
 }
 .navigation .mani {
   font-weight: 500;
@@ -33,12 +37,14 @@
   flex-basis: calc(100% / 3);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 15px;
 }
 .cart-set {
   width: auto;
   flex-basis: calc(100% / 3 - 30px);
-  display: flex;
+  // display: flex;
   flex-wrap: wrap;
+  display: block;
   width: 1200px;
   margin-top: -30px;
   margin-left: -30px;
