@@ -130,12 +130,34 @@
   border-right: 1px solid;
   padding-right: 10px;
 }
-.modal-iten {
-  opacity: 0;
+.puma {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
 }
-.yes {
-  fill: black;
+// .puma {
+//   fill: $black-color;
+// }
+.media {
+  position: absolute;
+  fill: $primary-text-color;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 60px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
+
 .color-iten-tot {
   display: flex;
   align-items: center;

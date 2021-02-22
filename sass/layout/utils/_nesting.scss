@@ -162,6 +162,18 @@ input {
     transform: translateX(0);
   }
 }
+.puma {
+  &:hover,
+  &:focus svg {
+    fill: $accent-color;
+  }
+}
+.media {
+  &:hover,
+  &:focus svg {
+    fill: $accent-color;
+  }
+}
 .sulka {
   &:hover .apasition,
   &:focus .apasition {
