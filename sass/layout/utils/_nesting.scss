@@ -38,6 +38,18 @@
     color: $accent-color;
   }
 }
+.color-iten-tot {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.color-iten {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
 
 .contacts-color {
   &:focus {
@@ -184,6 +196,7 @@ input {
     margin-right: 50px;
   }
 }
+
 .site-naw .iten:not(:last-child) {
   padding-right: 50px;
 }
@@ -206,6 +219,15 @@ input {
   left: 0;
 }
 .link {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+  &.current {
+    color: $accent-color;
+  }
+}
+.moffa {
   &:hover,
   &:focus {
     color: $accent-color;

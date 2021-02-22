@@ -56,6 +56,9 @@
     display: flex;
     flex-wrap: wrap;
   }
+  // @media screen and(min-width: 1200px) {
+  //   width: 370px;
+  // }
 }
 .fon {
   width: 450px;
@@ -65,6 +68,9 @@
   border: 1px solid #eeeeee;
   @media screen and(min-width: 768px) {
     width: 354px;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 370px;
   }
 }
 .product-thumb {
@@ -82,13 +88,20 @@
     background-image: url(../images/tablet/image_1.jpg);
     background-repeat: no-repeat;
   }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/img.jpg);
+  }
 }
-
 .jpg_2 {
   @media screen and (min-width: 768px) {
     width: 354px;
     background-image: url(../images/tablet/image_2.jpg);
     background-repeat: no-repeat;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-2.jpg);
   }
 }
 .jpg_3 {
@@ -99,6 +112,10 @@
     background-image: url(../images/tablet/image_3.jpg);
     background-repeat: no-repeat;
   }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-3.jpg);
+  }
 }
 .jpg_4 {
   @media screen and (min-width: 768px) {
@@ -107,6 +124,10 @@
     width: 354px;
     background-image: url(../images/tablet/image_4.jpg);
     background-repeat: no-repeat;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-4.jpg);
   }
 }
 .jpg_5 {
@@ -117,6 +138,10 @@
     background-image: url(../images/tablet/image_5.jpg);
     background-repeat: no-repeat;
   }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-5.jpg);
+  }
 }
 .jpg_6 {
   @media screen and (min-width: 768px) {
@@ -125,6 +150,10 @@
     width: 354px;
     background-image: url(../images/tablet/image_6.jpg);
     background-repeat: no-repeat;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-6.jpg);
   }
 }
 .jpg_7 {
@@ -135,6 +164,10 @@
     background-image: url(../images/tablet/image_7.jpg);
     background-repeat: no-repeat;
   }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-7.jpg);
+  }
 }
 .jpg_8 {
   @media screen and (min-width: 768px) {
@@ -144,6 +177,10 @@
     background-image: url(../images/tablet/image_8.jpg);
     background-repeat: no-repeat;
   }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-8.jpg);
+  }
 }
 .jpg_9 {
   @media screen and (min-width: 768px) {
@@ -152,6 +189,10 @@
     width: 354px;
     background-image: url(../images/tablet/image_9.jpg);
     background-repeat: no-repeat;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+    background-image: url(../images/fto-9.jpg);
   }
 }
 .apasition {

@@ -41,6 +41,11 @@
                         </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
+            <a  href="" >
+            <svg  data - menu - open class="" width=20px height=20px>
+                <use href="./images/sprite.svg#icon-twitter-1"></use>
+            </svg>
+            </a>
         </div>
     </header>
     <main>
@@ -102,7 +107,7 @@
             </div>
         </section>
         <!-- Наша работа-->
-        <!-- <section class="work">
+        <section class="work">
             <div class="containet">
                 <h2 class="important">Чем мы занимаемся</h2>
                 <ul class="foto">
@@ -120,7 +125,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!--Команда-->
         <section class="section">
             <div class="containet">
@@ -409,8 +414,7 @@
     <div class="backdrop is-hidden " data-modal>
         <div class="modal">
             <div class="modal-button">
-
-                <form name="formator" autocomplete="off">
+                 <form name="formator" autocomplete="off">
                     <h3 class="lili">Оставьте свои данные, мы вам перезвоним</h3>
                     <div class="hooh">
                         <label class="label-wid" for="full-name">
@@ -461,6 +465,59 @@
         </div>
     </div>
     </div>
+      <div>
+        <div >
+            <ul>
+                <class class="site-naw-mod">
+                    <li class="iten"> <a href="./index.html" class="moffa  current">Студия</a></li>
+                    <li class="iten"> <a href="./portfolio.html" class="moffa ">Портфолио</a></li>
+                    <li class="iten"> <a href="" class="moffa ">Контакты</a></li>
+                </class>
+                </ul>
+                <ul class="mod-contac">
+                <li class="iten">
+                    <a href="tel:+380961111111" class="color-iten">+38 096 111 11 11</a>
+                </li>
+                <li><a lang="en" href="mailto:info@devstudio.com" class="color-iten-tot">info@devstudio.com</a>
+            </li>
+            </ul>
+            <ul class="cete">
+                <li class="cete-iten">
+                    <a href="">
+                    <svg class="" width=85px height=22px>
+                        <use href="./images/sprite.svg#Instagram"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="cete-iten" >
+                    <a href="">
+                        <svg class="" width=59px height=22px>
+                            <use href="./images/sprite.svg#Twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="cete-iten">
+                    <a href="">
+                        <svg class="" width=81px height=22px>
+                            <use href="./images/sprite.svg#Facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="tyuio">
+                    <a href="">
+                        <svg class="" width=72px height=22px>
+                            <use href="./images/sprite.svg#LinkedIn"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button  class="ewcw" >
+            <svg class="ewcw-iten" width="18" height="18">
+                <use href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+        </button>
+    </div>
     <script>
         const refs = {
             openModalBtn: document.querySelector('[data-modal-open]'),
@@ -475,5 +532,18 @@
             refs.modal.classList.toggle('is-hidden');
         }
     </script>
+    <!-- <script>
+         const refs = {
+                    openMenuBtn: document.querySelector('[data - menu - open]'),
+                    closeMenuBtn: document.querySelector('[data - menu - close]'),
+                    menu: document.querySelector('[data - menu]'),
+                };
+                refs.openMenuBtn.addEventListener('click' , toggleMenu);
+                refs.closeMenuBtn.addEventListener('click', toggleMenu);
+                function toggleMenu() {
+                    refs.menu.classList.toggle('is - closed');
+                }
+    </script> -->
+    
 </body>
 </html>

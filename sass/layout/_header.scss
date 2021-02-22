@@ -54,11 +54,31 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  @media screen and(max-width: 767px) {
+    display: none;
+  }
+}
+.site-naw-mod {
+  display: block;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 .link {
   position: relative;
   display: block;
   padding-top: 32px;
+  padding-bottom: 32px;
+  color: $primary-text-color;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.moffa {
+  position: relative;
+  display: block;
   padding-bottom: 32px;
   color: $primary-text-color;
   text-decoration: none;
@@ -87,7 +107,46 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.color-iten {
+  display: flex;
+  align-items: center;
 
+  font-size: 34px;
+  margin-bottom: 32px;
+  line-height: 1.17;
+  color: $accent-color;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mod-contac {
+  margin-top: 200px;
+}
+.cete {
+  display: flex;
+}
+.cete-iten {
+  margin-right: 10px;
+  border-right: 1px solid;
+  padding-right: 10px;
+}
+.modal-iten {
+  opacity: 0;
+}
+.yes {
+  fill: black;
+}
+.color-iten-tot {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 64px;
+  line-height: 1.16;
+  color: $title-text-color;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .riko {
   fill: $title-text-color;
   margin-right: 10px;
@@ -103,6 +162,9 @@
   // font-size: 14px;
   // line-height: 1.14;
   letter-spacing: 0.02em;
+  @media screen and(max-width: 768px) {
+    display: none;
+  }
   @media screen and(min-width: 768px) {
     display: flex;
     flex-direction: column;

@@ -32,6 +32,14 @@
   color: #2196f3;
 }
 
+.color-iten-tot:hover, .color-iten-tot:focus {
+  color: #2196f3;
+}
+
+.color-iten:hover, .color-iten:focus {
+  color: #2196f3;
+}
+
 .contacts-color:focus {
   color: #2196f3;
 }
@@ -189,6 +197,14 @@ input:focus + svg {
 }
 
 .link.current {
+  color: #2196f3;
+}
+
+.moffa:hover, .moffa:focus {
+  color: #2196f3;
+}
+
+.moffa.current {
   color: #2196f3;
 }
 
@@ -425,7 +441,6 @@ html {
 }
 
 .advantages {
-  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -433,7 +448,19 @@ html {
   margin-bottom: 10px;
 }
 
+@media screen and (min-height: 420px) {
+  .advantages {
+    text-align: center;
+  }
+}
+
 @media screen and (min-height: 768px) {
+  .advantages {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .advantages {
     text-align: start;
   }
@@ -476,9 +503,16 @@ html {
 
 /* наша работа*/
 .work {
+  display: none;
   padding-bottom: 94px;
   margin: 0 auto;
   background-color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .work {
+    display: block;
+  }
 }
 
 .important {
@@ -1101,10 +1135,35 @@ address {
   letter-spacing: 0.02em;
 }
 
+@media screen and (max-width: 767px) {
+  .site-naw {
+    display: none;
+  }
+}
+
+.site-naw-mod {
+  display: block;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
 .link {
   position: relative;
   display: block;
   padding-top: 32px;
+  padding-bottom: 32px;
+  color: #212121;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.moffa {
+  position: relative;
+  display: block;
   padding-bottom: 32px;
   color: #212121;
   text-decoration: none;
@@ -1139,6 +1198,52 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.color-iten {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  margin-bottom: 32px;
+  line-height: 1.17;
+  color: #2196f3;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mod-contac {
+  margin-top: 200px;
+}
+
+.cete {
+  display: flex;
+}
+
+.cete-iten {
+  margin-right: 10px;
+  border-right: 1px solid;
+  padding-right: 10px;
+}
+
+.modal-iten {
+  opacity: 0;
+}
+
+.yes {
+  fill: black;
+}
+
+.color-iten-tot {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 64px;
+  line-height: 1.16;
+  color: #757575;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .riko {
   fill: #757575;
   margin-right: 10px;
@@ -1152,6 +1257,12 @@ address {
   font-weight: 500;
   margin: 0px;
   letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1225,6 +1336,28 @@ address {
   }
 }
 
+.modal-iten {
+  display: flex;
+  position: absolute;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 480px;
+  min-height: 581px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-iten {
+    width: 528px;
+  }
+}
+
 .modal-button {
   width: 100%;
 }
@@ -1286,6 +1419,12 @@ address {
   display: flex;
 }
 
+@media screen and (min-width: 420px) {
+  .check-label {
+    padding-left: 20px;
+  }
+}
+
 .wid-feadback {
   width: 370px;
   height: 120px;
@@ -1330,6 +1469,12 @@ address {
   text-decoration: underline;
   font-size: 12px;
   line-height: 1.1px;
+}
+
+@media screen and (min-width: 420px) {
+  .ssulka {
+    margin-left: 1px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1457,6 +1602,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .fon {
+    width: 370px;
+  }
+}
+
 .product-thumb {
   position: relative;
   overflow: hidden;
@@ -1475,11 +1626,25 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .jpg {
+    width: 100%;
+    background-image: url(../images/img.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .jpg_2 {
     width: 354px;
     background-image: url(../images/tablet/image_2.jpg);
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jpg_2 {
+    width: 100%;
+    background-image: url(../images/fto-2.jpg);
   }
 }
 
@@ -1491,11 +1656,25 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .jpg_3 {
+    width: 100%;
+    background-image: url(../images/fto-3.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .jpg_4 {
     width: 354px;
     background-image: url(../images/tablet/image_4.jpg);
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jpg_4 {
+    width: 100%;
+    background-image: url(../images/fto-4.jpg);
   }
 }
 
@@ -1507,11 +1686,25 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .jpg_5 {
+    width: 100%;
+    background-image: url(../images/fto-5.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .jpg_6 {
     width: 354px;
     background-image: url(../images/tablet/image_6.jpg);
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jpg_6 {
+    width: 100%;
+    background-image: url(../images/fto-6.jpg);
   }
 }
 
@@ -1523,6 +1716,13 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .jpg_7 {
+    width: 100%;
+    background-image: url(../images/fto-7.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .jpg_8 {
     width: 354px;
@@ -1531,11 +1731,25 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .jpg_8 {
+    width: 100%;
+    background-image: url(../images/fto-8.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .jpg_9 {
     width: 354px;
     background-image: url(../images/tablet/image_9.jpg);
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jpg_9 {
+    width: 100%;
+    background-image: url(../images/fto-9.jpg);
   }
 }
 

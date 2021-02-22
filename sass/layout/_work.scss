@@ -1,8 +1,12 @@
 /* наша работа*/
 .work {
+  display: none;
   padding-bottom: 94px;
   margin: 0 auto;
   background-color: $main-white-color;
+  @media screen and(min-width: 1200px) {
+    display: block;
+  }
 }
 .important {
   margin-bottom: 50px;
