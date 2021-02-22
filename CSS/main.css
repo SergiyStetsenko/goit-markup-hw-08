@@ -326,6 +326,12 @@ html {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .containet {
+    width: 1200px;
+  }
+}
+
 .hero {
   text-align: center;
 }
@@ -402,6 +408,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 1200px;
   }
 }
 
@@ -921,6 +928,12 @@ address {
   padding-top: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .gig {
+    margin-right: 8px;
+  }
+}
+
 .happe {
   margin-right: 10px;
   width: 44px;
@@ -1206,6 +1219,12 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
+}
+
 .modal-button {
   width: 100%;
 }
@@ -1249,6 +1268,12 @@ address {
   padding-left: 42px;
 }
 
+@media screen and (min-width: 1200px) {
+  .wid {
+    width: 448px;
+  }
+}
+
 .rery {
   position: absolute;
   margin-top: 17px;
@@ -1273,6 +1298,12 @@ address {
   padding-left: 16px;
 }
 
+@media screen and (min-width: 1200px) {
+  .wid-feadback {
+    width: 448px;
+  }
+}
+
 .checkbox {
   display: flex;
   flex-direction: row;
@@ -1285,12 +1316,27 @@ address {
   line-height: 1.1px;
 }
 
+@media screen and (min-width: 1200px) {
+  .sogla {
+    font-size: 14px;
+    line-height: 1.7px;
+    margin-right: 18px;
+  }
+}
+
 .ssulka {
   margin-left: 5px;
   color: #2196f3;
   text-decoration: underline;
   font-size: 12px;
   line-height: 1.1px;
+}
+
+@media screen and (min-width: 1200px) {
+  .ssulka {
+    font-size: 14px;
+    line-height: 1.7px;
+  }
 }
 
 .yoyo {

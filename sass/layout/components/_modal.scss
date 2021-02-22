@@ -36,6 +36,9 @@
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
 }
 .modal-button {
   width: 100%;
@@ -75,6 +78,9 @@
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 42px;
+  @media screen and (min-width: 1200px) {
+    width: 448px;
+  }
 }
 .rery {
   position: absolute;
@@ -98,6 +104,9 @@
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 16px;
+  @media screen and (min-width: 1200px) {
+    width: 448px;
+  }
 }
 .checkbox {
   display: flex;
@@ -110,6 +119,11 @@
   // line-height: 1.7px;
   font-size: 12px;
   line-height: 1.1px;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.7px;
+    margin-right: 18px;
+  }
 }
 
 .ssulka {
@@ -120,6 +134,10 @@
   // line-height: 1.7px;
   font-size: 12px;
   line-height: 1.1px;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.7px;
+  }
 }
 .yoyo {
   display: flex;
