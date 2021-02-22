@@ -927,6 +927,12 @@ address {
   background-color: #fff;
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .logo {
   display: block;
   padding-top: 24px;
@@ -943,6 +949,12 @@ address {
 @media screen and (min-width: 768px) {
   .logo {
     padding-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    padding-right: 93px;
   }
 }
 
@@ -978,6 +990,12 @@ address {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .iten {
+    justify-content: center;
+  }
+}
+
 .contacts-color {
   display: flex;
   align-items: center;
@@ -997,7 +1015,6 @@ address {
 }
 
 .contacts {
-  display: flex;
   font-weight: 500;
   margin: 0px;
   letter-spacing: 0.02em;
@@ -1009,6 +1026,15 @@ address {
     flex-direction: column;
     font-size: 12px;
     line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 1.14;
   }
 }
 
