@@ -1025,6 +1025,12 @@ address {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 420px) {
+  .widiid {
+    width: 370px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .widiid {
     width: 350px;
