@@ -397,6 +397,14 @@ html {
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 .advantages-title {
   list-style: none;
 }
@@ -763,6 +771,7 @@ html {
   .lopo {
     display: flex;
     flex-wrap: nowrap;
+    text-align: start;
     justify-content: space-between;
   }
 }
@@ -775,7 +784,6 @@ html {
 
 @media screen and (min-width: 1200px) {
   .elena {
-    margin-right: 70px;
     margin-left: 0px;
   }
 }
@@ -890,6 +898,13 @@ address {
   margin-left: 87px;
 }
 
+@media screen and (min-width: 1200px) {
+  .huhu {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 .masha {
   display: flex;
   align-items: center;
@@ -956,6 +971,7 @@ address {
 @media screen and (min-width: 1200px) {
   .widiid {
     width: 350px;
+    margin-right: 12px;
   }
 }
 

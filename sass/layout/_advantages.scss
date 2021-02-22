@@ -16,6 +16,11 @@
   padding-right: 15px;
   margin: 0 auto;
   background-color: $main-white-color;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 .advantages-title {
   // display: flex;
