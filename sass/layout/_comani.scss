@@ -45,6 +45,9 @@
   @media screen and (min-width: 768px) {
     width: 354px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
 .foto_1 {
   @media screen and (min-width: 768px) {
@@ -52,6 +55,11 @@
     // height: 374px;
     width: 354px;
     background-image: url(../images/tablet/img_1.jpg);
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    background-image: url(../images/чел-1.jpg);
     background-repeat: no-repeat;
   }
 }
@@ -63,6 +71,11 @@
     background-image: url(../images/tablet/img_2.jpg);
     background-repeat: no-repeat;
   }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    background-image: url(../images/чел-2.jpg);
+    background-repeat: no-repeat;
+  }
 }
 .foto_3 {
   @media screen and (min-width: 768px) {
@@ -72,6 +85,11 @@
     background-image: url(../images/tablet/img_3.jpg);
     background-repeat: no-repeat;
   }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    background-image: url(../images/чел-3.jpg);
+    background-repeat: no-repeat;
+  }
 }
 .foto_4 {
   @media screen and (min-width: 768px) {
@@ -79,6 +97,11 @@
     // height: 374px;
     width: 354px;
     background-image: url(../images/tablet/img_4.jpg);
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    background-image: url(../images/чел-4.jpg);
     background-repeat: no-repeat;
   }
 }

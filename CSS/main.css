@@ -550,10 +550,24 @@ html {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .bot {
+    width: 270px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .foto_1 {
     width: 354px;
     background-image: url(../images/tablet/img_1.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .foto_1 {
+    width: 270px;
+    background-image: url(../images/чел-1.jpg);
     background-repeat: no-repeat;
   }
 }
@@ -566,6 +580,14 @@ html {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .foto_2 {
+    width: 270px;
+    background-image: url(../images/чел-2.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .foto_3 {
     width: 354px;
@@ -574,10 +596,26 @@ html {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .foto_3 {
+    width: 270px;
+    background-image: url(../images/чел-3.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .foto_4 {
     width: 354px;
     background-image: url(../images/tablet/img_4.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .foto_4 {
+    width: 270px;
+    background-image: url(../images/чел-4.jpg);
     background-repeat: no-repeat;
   }
 }
