@@ -430,6 +430,12 @@ html {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .itenn {
+    width: 270px;
+  }
+}
+
 .mod {
   margin-bottom: 30px;
   height: 120px;
