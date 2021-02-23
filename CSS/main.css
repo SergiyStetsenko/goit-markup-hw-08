@@ -1660,6 +1660,7 @@ textarea {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    width: auto;
   }
 }
 
@@ -1674,6 +1675,7 @@ textarea {
 @media screen and (min-width: 768px) {
   .fon {
     width: 354px;
+    margin-left: 20px;
   }
 }
 

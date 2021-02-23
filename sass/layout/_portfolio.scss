@@ -55,6 +55,7 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    width: auto;
   }
   // @media screen and(min-width: 1200px) {
   //   width: 370px;
@@ -68,6 +69,7 @@
   border: 1px solid #eeeeee;
   @media screen and(min-width: 768px) {
     width: 354px;
+    margin-left: 20px;
   }
   @media screen and(min-width: 1200px) {
     width: 370px;
