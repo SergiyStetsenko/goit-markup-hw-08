@@ -1042,7 +1042,6 @@ address {
 .widiid {
   color: #757575;
   width: 450px;
-  display: flex;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -1059,9 +1058,9 @@ address {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 768px) {
   .widiid {
-    width: 370px;
+    display: flex;
   }
 }
 
