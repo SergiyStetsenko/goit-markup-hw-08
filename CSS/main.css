@@ -447,6 +447,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 94px;
   }
 }
 
@@ -528,9 +529,20 @@ html {
 .important {
   margin-bottom: 50px;
   font-weight: 700;
-  font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .important {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .important {
+    font-size: 36px;
+  }
 }
 
 .foto {
@@ -576,6 +588,18 @@ html {
   font-size: 28px;
   line-height: 1.17;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .important {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .important {
+    font-size: 36px;
+  }
 }
 
 .section-item-en {
