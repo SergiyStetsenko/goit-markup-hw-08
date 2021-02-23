@@ -452,6 +452,7 @@ html {
 }
 
 .advantages {
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -459,19 +460,7 @@ html {
   margin-bottom: 10px;
 }
 
-@media screen and (min-height: 420px) {
-  .advantages {
-    text-align: center;
-  }
-}
-
-@media screen and (min-height: 768px) {
-  .advantages {
-    text-align: start;
-  }
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .advantages {
     text-align: start;
   }
