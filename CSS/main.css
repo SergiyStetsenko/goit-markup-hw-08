@@ -615,6 +615,10 @@ html {
   }
 }
 
+.foto_1 {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .foto_1 {
     width: 354px;
@@ -629,6 +633,10 @@ html {
     background-image: url(../images/чел-1.jpg);
     background-repeat: no-repeat;
   }
+}
+
+.foto_2 {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -647,6 +655,10 @@ html {
   }
 }
 
+.foto_3 {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .foto_3 {
     width: 354px;
@@ -661,6 +673,10 @@ html {
     background-image: url(../images/чел-3.jpg);
     background-repeat: no-repeat;
   }
+}
+
+.foto_4 {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -1659,6 +1675,10 @@ textarea {
   overflow: hidden;
 }
 
+.jpg {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .jpg {
     width: 354px;
@@ -1672,6 +1692,10 @@ textarea {
     width: 100%;
     background-image: url(../images/img.jpg);
   }
+}
+
+.jpg_2 {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -1689,6 +1713,10 @@ textarea {
   }
 }
 
+.jpg_3 {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .jpg_3 {
     width: 354px;
@@ -1702,6 +1730,10 @@ textarea {
     width: 100%;
     background-image: url(../images/fto-3.jpg);
   }
+}
+
+.jpg_4 {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -1719,6 +1751,10 @@ textarea {
   }
 }
 
+.jpg_5 {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .jpg_5 {
     width: 354px;
@@ -1732,6 +1768,10 @@ textarea {
     width: 100%;
     background-image: url(../images/fto-5.jpg);
   }
+}
+
+.jpg_6 {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -1749,6 +1789,10 @@ textarea {
   }
 }
 
+.jpg_7 {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .jpg_7 {
     width: 354px;
@@ -1764,6 +1808,10 @@ textarea {
   }
 }
 
+.jpg_8 {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .jpg_8 {
     width: 354px;
@@ -1777,6 +1825,10 @@ textarea {
     width: 100%;
     background-image: url(../images/fto-8.jpg);
   }
+}
+
+.jpg_9 {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
