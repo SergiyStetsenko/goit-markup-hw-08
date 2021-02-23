@@ -1651,6 +1651,12 @@ textarea {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .mani {
+    margin-bottom: 0;
+  }
+}
+
 .cart-set {
   width: auto;
   flex-wrap: wrap;
